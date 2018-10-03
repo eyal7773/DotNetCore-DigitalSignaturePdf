@@ -8,6 +8,9 @@
     <PackageLicenseUrl>https://www.mozilla.org/en-US/MPL/1.1/;https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html</PackageLicenseUrl>
     <PackageTags>pdf;digital signature;digital sign;x509;certificate;</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/eyal7773/DotNetCore-DigitalSignaturePdf</PackageProjectUrl>
+    <RepositoryUrl></RepositoryUrl>
+    <RepositoryType></RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
