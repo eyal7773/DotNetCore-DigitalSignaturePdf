@@ -1,9 +1,21 @@
 # DotNetCore-DigitalSignaturePdf
 Free dotNetCore library for digitaly sign pdf files with X509 certificates. This library is a dot net core wrapper on [JSignPdf](http://jsignpdf.sourceforge.net/) java application.
 This library already include JSignPdf inside.
-You can use this library by using nuget package, or by clone this repo and compile by yourself.
+You can use this library by using [nuget package](https://www.nuget.org/packages/DigitalSignPdf/), or by clone this repo and compile by yourself.
 
 > be aware! java need to be installed on your server to use this library. I added links for windows & linux later.
+
+# Install
+Just add this nuget packege to your project. [DigitalSignPdf Nuget Package](https://www.nuget.org/packages/DigitalSignPdf/)
+
+* By Package Manager : 
+```
+Install-Package DigitalSignPdf -Version 1.0.0 
+```
+* By dotnet cli :
+```
+dotnet add package DigitalSignPdf --version 1.0.0 
+```
 
 ## How to use
 
