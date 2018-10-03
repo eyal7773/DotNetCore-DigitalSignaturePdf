@@ -31,7 +31,8 @@ You can use this library by using nuget package, or by clone this repo and compi
   * (2) full path to your X509 certificate (pfx file). 
   * (3) password to your pfx file - if needed (if not, supply empty string).
   * (4) Password for the signed pdf that will be return. (if you don't want to lock the pdf with a password - supply empty string).
-  
+ 
+ After Build(=compile) the project (or by using the nuget package) - the assets folder will be copied to your lib/.../publish folder - this folder is crucial because it contains the JSignPdf app.
  
 # Need to generate self sign certificate ? 
 Here are the commands ( you need openssl - it is installed by default on most linux distributions, and for windows you can use [openssl for Windows](http://gnuwin32.sourceforge.net/packages/openssl.htm) ).
