@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <Authors>Eyal Bardugo</Authors>
+    <Description>Free dotNetCore library for digitaly sign pdf files with X509 certificates. This library is a dot net core wrapper on JSignPdf java application.</Description>
+    <Copyright>Eyal Bardugo</Copyright>
+    <PackageLicenseUrl>https://www.mozilla.org/en-US/MPL/1.1/;https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html</PackageLicenseUrl>
+    <PackageTags>pdf;digital signature;digital sign;x509;certificate;</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="assets/JSignPdf-1.6.4/**/*" CopyToOutputDirectory="Always" />
+  </ItemGroup>
+
+</Project>
